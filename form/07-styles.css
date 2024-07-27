@@ -788,7 +788,7 @@ textarea:valid:not(:placeholder-shown) {
 /*** SEARCH FORM ***/
 .form-search {
   display: block;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   position: relative;
 }
 .form-search .search-button {
@@ -816,7 +816,7 @@ textarea:valid:not(:placeholder-shown) {
   background: none;
   cursor: pointer;
   z-index: 3;
-  transition: width .4s cubic-bezier(0, 0.795, 0, 1);
+  transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
 }
 .form-search input[type="search"]:focus {
   position: relative;
