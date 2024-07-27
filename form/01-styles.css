@@ -112,8 +112,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-  -webkit-appearance: button;
-  appearance: button
+  -webkit-appearance: button
 }
 
 [type=button]::-moz-focus-inner,
@@ -165,7 +164,6 @@ textarea {
 
 [type=search] {
   -webkit-appearance: textfield;
-  appearance: initial;
   outline-offset: -2px
 }
 
@@ -824,27 +822,4 @@ ul.row {
 
 .tag-list li:last-child::after {
   content: "";
-}
-
-/*** FORM ***/
-/* Comment section
-  ======================== */
-.post-comments {
-  font-variant: small-caps;
-}
-
-.post-comments .section-title {
-  width: 80%;
-  margin: 10rem 0 0 auto;
-  padding-left: 7rem;
-}
-
-/* Basic form
-  ======================== */
-
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0;
-  margin: 0;
 }
