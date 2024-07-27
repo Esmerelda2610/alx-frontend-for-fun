@@ -828,19 +828,19 @@ ul.row {
 
 /*** FORM ***/
 /* Comment section
-    ======================== */
+  ======================== */
 .post-comments {
+  font-variant: small-caps;
+}
+
+.post-comments .section-title {
   width: 80%;
   margin: 10rem 0 0 auto;
   padding-left: 7rem;
 }
 
-.post-comments .section-title {
-  font-variant: small-caps;
-}
-
 /* Basic form
-    ======================== */
+  ======================== */
 
 form {
   display: flex;
