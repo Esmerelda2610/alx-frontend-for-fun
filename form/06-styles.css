@@ -155,6 +155,15 @@ a:active {
   transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
+.button-primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button-primary:hover {
+  color: var(--color-primary);
+  background: var(--color-white);
+}
 
 /* Helpers
     ============================= */
