@@ -648,7 +648,8 @@ ul.row {
 
 /*** FORM ***/
 /* Comment section
-    ============================= */
+  ============================= */
+
 .post-comments {
   width: 80%;
   margin: 10rem 0 0 auto;
@@ -669,7 +670,7 @@ form {
   margin: 0;
 }
 
-.fieldset {
+fieldset {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
