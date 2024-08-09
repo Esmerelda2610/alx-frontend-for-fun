@@ -668,15 +668,7 @@ ul.row {
   display: block;
   text-decoration: none;
   padding-top: 45%;
-}
-
-.card-work .card-title a::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
+  opacity: 0;
 }
 
 .card-work .card-title a:focus,
@@ -687,6 +679,7 @@ ul.row {
 }
 
 .card-work .card-title a::after {
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
