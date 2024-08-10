@@ -212,6 +212,14 @@ a:active {
   transform: translate(0);
 }
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
 /*** 2. LAYOUT ***/
 
 /* Layout
