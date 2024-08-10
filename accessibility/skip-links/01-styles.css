@@ -201,8 +201,8 @@ a:active {
   padding: .7rem;
   position: fixed;
   opacity: 0;
-  top: 5px;
-  z-index: 100;
+  top: 0;
+  z-index: 10;
   transform: translate(-1rem);
   transition: transform .2s ease-in-out, opacity .2s ease-in-out;
 }
@@ -210,14 +210,6 @@ a:active {
 .skip-link:focus {
   opacity: 1;
   transform: translate(0);
-}
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  appearance: button;
 }
 
 /*** 2. LAYOUT ***/
